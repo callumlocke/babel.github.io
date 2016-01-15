@@ -24,6 +24,8 @@ We've assembled some for common environments:
  - [stage-3](/docs/plugins/preset-stage-3)
  - [react](/docs/plugins/preset-react)
 
+Many other community-maintained presets are available [on npm](https://www.npmjs.com/search?q=babel-preset)
+
 ## Misc
 
  - [external-helpers](/docs/plugins/external-helpers)
@@ -122,6 +124,7 @@ These plugins apply transformations to your code.
 
 ### Other
  - [eval](/docs/plugins/transform-eval)
+ - [flow-comments](/docs/plugins/transform-flow-comments)
  - [flow-strip-types](/docs/plugins/transform-flow-strip-types)
  - [inline-environment-variables](/docs/plugins/transform-inline-environment-variables)
  - [jscript](/docs/plugins/transform-jscript)

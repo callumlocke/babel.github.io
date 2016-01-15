@@ -25,6 +25,9 @@
 - name: Spotify
   url: https://www.spotify.com
   logo: spotify.png
+- name: VersionOne
+  url: https://www.versionone.com/
+  logo: versionone.png
 - name: Atlassian
   url: https://www.atlassian.com/
   logo: atlassian.svg
@@ -382,3 +385,15 @@
 - name: Avant
   url: https://www.avant.com
   logo: avant.svg
+- name: FanDuel
+  url: https://www.fanduel.com
+  logo: fanduel.svg
+- name: Kogan.com
+  url: https://www.kogan.com
+  logo: kogan-com.svg
+- name: SparkPost.com
+  url: https://www.sparkpost.com/
+  logo: sparkpost.svg
+- name: Under Armour
+  url: https://www.underarmour.com/
+  logo: ua.svg

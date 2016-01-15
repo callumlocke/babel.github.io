@@ -38,11 +38,12 @@ $ babel --name=value
 | `moduleId`               | `null`               | Specify a custom name for module ids. |
 | `getModuleId`            | `null`               | Specify a custom callback to generate a module id with. Called as `getModuleId(moduleName)`. If falsy value is returned then the generated module id is used. |
 | `resolveModuleSource`    | `null`               | Resolve a module source ie. `import "SOURCE";` to a custom value. Called as `resolveModuleSource(source, filename)`. |
-| `keepModuleIdExtensions` | `false`              | Keep extensions in module ids |
 | `code`                   | `true`               | Enable code generation |
+| `babelrc`                | `true`               | Specify whether or not to use .babelrc and .babelignore files. |
 | `ast`                    | `true`               | Include the AST in the returned object |
 | `compact`                | `"auto"`             | Do not include superfluous whitespace characters and line terminators. When set to `"auto"` compact is set to `true` on input sizes of >100KB. |
 | `comments`               | `true`               | Output comments in generated output. |
 | `shouldPrintComment`     | null                 | An optional callback that controls whether a comment should be output or not. Called as `shouldPrintComment(commentContents)`. **NOTE:** This overrides the `comment` option when used. |
 | `env`                    | `{}`                 | <p>This is an object of keys that represent different environments. For example, you may have:</p> <pre><code>{ env: { production: { /* specific options */ } } }`</pre></code> <p>which will use those options when the enviroment variable <code>BABEL_ENV</code> is set to <code>"production"</code>. If <code>BABEL_ENV</code> isn't set then <code>NODE_ENV</code> will be used, if it's not set then it defaults to <code>"development"</code></p> |
 | `retainLines`            | `false`              | <p>Retain line numbers. This will lead to wacky code but is handy for scenarios where you can't use source maps.</p>**NOTE:** This will obviously not retain the columns. |
+| `extends`                | `null`               | A path to an `.babelrc` file to extend |
